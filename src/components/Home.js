@@ -1,11 +1,13 @@
-import React, { useEffect, useState } from 'react'
-import axios from 'axios'
+import React from 'react'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 
 const Home = () => {
+  return <section>
+    <img src="img/Forest_tales.gif"></img>
 
 
-  return <h1> Hello </h1>
+  </section>
 }
 
 export default Home
