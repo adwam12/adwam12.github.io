@@ -29,7 +29,7 @@
 
  // animation
 $(window).scroll(function() {
-    $('h2,h3').each(function(){
+    $('h2').each(function(){
     var elementPos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
