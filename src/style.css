@@ -62,7 +62,7 @@ h3{font-weight:300;font-size: 35px;line-height:38px;margin-bottom:40px;}
 .testimonials{background:rgba(0,0,0,0.9);color: #fff;}
 .testimonials p{font-size: 26px;font-weight: 300;line-height: 35px;padding: 0 200px;}
 
-#carousel-testimonials .arrow{position: absolute;color: #fff;top: 12%;background:none;font-size:35px;: }
+#carousel-testimonials .arrow{position: absolute;color: #fff;top: 12%;background:none;font-size:35px; }
 #carousel-testimonials .arrow.left{left: 0;}
 #carousel-testimonials .arrow.right{right: 0;}
 
