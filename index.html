@@ -41,8 +41,8 @@
 
             <div class="col-sm-5 col-sm-offset" >
               <div class="connect-icon" style="display: flex; justify-content: end;">
-                <div class="prof-links clearfix animated bounceInDown"">
-                  <h3 style="font-weight: 7; color: whitesmoke">Creating <br/>&<br/> automating </h3>
+                <div class="prof-links clearfix bounceInDown"">
+                  <h6 style=" font-size: 37px; font-weight: 7; color: whitesmoke">Creating <br/>&<br/> automating </h6>
                 </div>
                 <div class="prof-links clearfix animated bounceInUp">
                   <a href="https://github.com/adwam12"><img alt="portfolio" src="images/github-icon.jpg"
@@ -89,7 +89,7 @@
           <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
 
             <div class="carousel-inner">
-              <div class="item  animated bounceInRight">
+              <div class="item active animated bounceInRight">
                 <h3>LaterGram</h3>
 
                 <p>A commercial Electron Application designed to automate your Instagram account. It is the only Instagram software that provides FULL automation by being able to source your next Instagram post from the internet. It can be used schedule your posts months in advance, and automate daily posting.</p>
@@ -97,7 +97,7 @@
 
     
               </div>
-              <div class="item active animated bounceInRight">
+              <div class="item animated bounceInRight">
                 <!-- <span class="animated slideInLeft"><img alt="portfolio" src="images/testimonials/1.jpg" width="100" -->
                   <h3>Tetris Funk</h3>
 
@@ -245,11 +245,22 @@
         <div class="col-sm-offset-3 col-sm-6 contact-form">
           <h3>Contact</h3>
           <p>I am available for hire and freelance work or collaboration.</p>
-          <form method="POST" action="https://api.slapform.com/adamlee.osgood@gmail.com">
-            <input type="text" name="form_name" class="form-control" placeholder="Name">
-            <input type="email" name="form_email" class="form-control" placeholder="Email">
-            <textarea name="form_message" class="form-control" placeholder="Message" rows="5"></textarea>
-            <input type="submit" name="Submit" class="btn btn-primary btn-lg" value="Submit">
+
+          <form action="https://submit-form.com/mYdiHInn">
+            <!-- <label for="name">Name</label> -->
+            <input type="text" id="name" name="name" placeholder="Name" required="" class="form-control" />
+            <!-- <label for="email">Email</label> -->
+            <input type="email" id="email" name="email" placeholder="Email" required="" class="form-control" />
+            <!-- <label for="message">Message</label> -->
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Message"
+              required=""
+              class="form-control" 
+              rows="5"
+            ></textarea>
+            <button type="submit" class="btn btn-primary btn-lg" >Send</button>
           </form>
         </div>
       </div>
